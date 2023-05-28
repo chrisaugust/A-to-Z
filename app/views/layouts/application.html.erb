@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>AToZ</title>
+    <title><%= yield(:title) %> | A to Z Coaching</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +11,21 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="main">
+
+      <div class="nav">
+        <ul>
+          <li><%= link_to 'Home', root_path %></li>
+          <li><%= link_to 'About', static_pages_about_path %></li>
+          <li><%= link_to 'Contact', static_pages_contact_path %></li>
+        </ul>
+      </div>
+      
+      <%= yield %>
+
+      <footer>
+        <p>A to Z Coaching &#xA9; 2023</p>
+      </footer>
+    </div>
   </body>
 </html>

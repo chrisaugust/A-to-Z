@@ -1,0 +1,130 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  height: 400px;
+  color: #fff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.home {
+  background: url(San_Clemente_pier.jpg) no-repeat;
+  background-size: cover;
+}
+
+.about {
+  background: url(SoCal_forest.jpg) no-repeat;
+  background-size: cover;
+}
+
+.contact {
+  background: url(surfers.jpg) no-repeat;
+  background-size: cover;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0 50px;
+  padding: 0;
+}
+
+.nav li {
+  padding: 5px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+.title {
+  margin: 0 50px;
+  padding-top: 50px;
+
+}
+
+.title h1 {
+  font-size: 45px;
+}
+
+.approach {
+  align-items: center;
+  justify-content: center;
+}
+
+.approach .info {
+  padding: 25px 50px;
+  color: #36454F;
+}
+
+.about-coach {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #FEFBEA;
+  padding: 25px 200px;
+
+}
+
+.about-coach img {
+  padding: 35px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form input {
+  width: 100%;
+}
+
+.contact-info {
+  padding: 50px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  background: #3B4248;
+  color: white;
+  justify-content: center;
+}
+
+footer p {
+  margin: 50px;
+}
