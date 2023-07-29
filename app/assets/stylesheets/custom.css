@@ -15,17 +15,17 @@ body {
 }
 
 .home {
-  background: url(http://s3.amazonaws.com/murmuring-brushlands-47946/pine.jpg) no-repeat;
+  background: url(pine.jpg) no-repeat;
   background-size: cover;
 }
 
 .about {
-  background: url(http://s3.amazonaws.com/murmuring-brushlands-47946/San_Clemente_pier.jpg) no-repeat;
+  background: url(San_Clemente_pier.jpg) no-repeat;
   background-size: cover;
 }
 
 .contact {
-  background: url(http://s3.amazonaws.com/murmuring-brushlands-47946/surfers.jpg) no-repeat;
+  background: url(surfers.jpg) no-repeat;
   background-size: cover;
 }
 
